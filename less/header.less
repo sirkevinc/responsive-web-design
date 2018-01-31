@@ -3,7 +3,7 @@
 header {
     width: 100%;
     display: flex;
-
+    flex-wrap: wrap;
     nav {
         ul {
             margin-top: 40px; 
@@ -15,8 +15,10 @@ header {
                 margin-left: 25px;
             }
             @media @phone {
-                width: 385px;
-                margin-left: 5px;
+                width: 350px;
+                margin-left: 12px;
+                font-size: 12px;
+                justify-content: space-evenly;
             }
 
             li {
@@ -39,6 +41,9 @@ header {
         margin: 28px 0 0 91px;
         @media @tablet {
             margin: 28px 0 0 50px;
+        }
+        @media @phone {
+            margin: 18px 0 0 97px;
         }
     }
 }// header
