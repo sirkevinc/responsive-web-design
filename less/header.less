@@ -10,6 +10,14 @@ header {
             width: 610px;
             justify-content: space-between;
             display: flex;
+            @media @tablet {
+                width: 475px;
+                margin-left: 25px;
+            }
+            @media @phone {
+                width: 385px;
+                margin-left: 5px;
+            }
 
             li {
 
@@ -29,5 +37,8 @@ header {
     .logo {
         align-self: flex-end;
         margin: 28px 0 0 91px;
+        @media @tablet {
+            margin: 28px 0 0 50px;
+        }
     }
 }// header
