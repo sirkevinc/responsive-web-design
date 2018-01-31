@@ -271,6 +271,13 @@ header .logo {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 400px) {
+  .main-content .top-content {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .main-content .middle-img {
   display: block;
   margin: 30px auto;
@@ -286,6 +293,13 @@ header .logo {
 }
 .main-content .bottom-content p {
   padding-right: 20px;
+}
+@media (max-width: 400px) {
+  .main-content .bottom-content {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 /* Contact Styles */
 @media (max-width: 768px) {
